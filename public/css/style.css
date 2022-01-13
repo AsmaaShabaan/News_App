@@ -1,0 +1,403 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+i {
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+.carousel-item img {
+  width: 700px;
+  height: 600px;
+}
+
+img {
+  margin-left: 5px;
+}
+
+.box img {
+  width: 260px;
+  height: 200px;
+}
+
+.menu {
+  height: 60px;
+}
+
+.slider {
+  height: 60px;
+}
+
+.carousel-caption {
+  margin-bottom: 100px;
+}
+.photo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text button {
+  margin-right: 60px;
+  margin-top: 50px;
+}
+
+.thrid img {
+  height: 325px;
+  margin-top: 30px;
+  width: 550px;
+}
+
+.texts {
+  margin-top: 30px;
+  /* margin-right: auto; */
+}
+.welcome {
+  color: yellow;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #d8d3bd;
+}
+.choose {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.icon .icons {
+  display: inline-block;
+  width: 70px;
+  text-align: center;
+  border: 1px;
+  font-size: 36px;
+  height: 60px;
+  margin-left: 30px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px rgb(238, 238, 10) inset,
+    0px 0px 30px rgb(187, 184, 171) inset, 0px 0px 40px rgb(255, 255, 0) inset;
+}
+.icon p {
+  text-align: center;
+}
+
+.icon .col-3 {
+  text-align: center;
+}
+
+.box button {
+  margin-left: 60px;
+}
+.qus {
+  margin-bottom: -20px;
+  background-color: rgb(174, 201, 184);
+  margin-top: 30px;
+  height: 200px;
+  /* width: 23000px; */
+}
+/* .contact {
+  width: 1210px;
+} */
+/* .form{
+    margin-left:10px ;
+} */
+
+.input input {
+  margin-top: 50px;
+  height: 30;
+  width: 150px;
+  margin-right: 10px;
+  /* font-size:small; */
+  margin-bottom: 20px;
+}
+/* .form-control{
+    width: 380px;
+} */
+
+.h1 {
+  margin-top: 30px;
+  font-size: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.submit {
+  width: 110px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 50%;
+}
+
+.foot {
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  position: relative;
+  color: rgb(250, 241, 241);
+  margin-top: 20px;
+  margin-right: 90px;
+  
+}
+
+.foot::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: -99;
+  filter: brightness(20%);
+  background-image: url(../images/words-news-on-digital-background-260nw-1176072610.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  opacity: 1;
+}
+
+.foot .back {
+  position: absolute;
+  z-index: 999;
+  text-align: center;
+  width: 100%;
+  margin-top: 60px;
+}
+
+.foot li {
+  list-style-position: inside;
+}
+
+.foot i span {
+  margin-left: 10px;
+}
+
+
+
+
+/* ============================= */
+
+/**********************************/
+/********** Footer CSS ************/
+/**********************************/
+.footer {
+  position: relative;
+  padding: 60px 0 0 0;
+  background: #074d69;
+}
+
+.footer .footer-widget {
+  position: relative;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.footer .footer-widget .title {
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+  margin-bottom: 25px;
+  border-bottom: 3px double #ffffff;
+}
+
+.footer .footer-widget p {
+  color: #ffffff;
+}
+
+.footer .footer-widget ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer .footer-widget ul li {
+  margin-bottom: 12px; 
+}
+
+.footer .footer-widget ul li:last-child {
+  margin-bottom: 0; 
+}
+
+.footer .footer-widget ul li a {
+  color: #ffffff;
+  white-space: nowrap;
+  display: block;
+  line-height: 23px;
+}
+
+.footer .footer-widget ul li a::before {
+  content: '\f061';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  padding-right: 5px;
+}
+
+.footer .footer-widget ul li a:hover {
+  padding-left: 10px;
+  color: #FF6F61;
+}
+
+.footer .contact-info p {
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.footer .contact-info p i {
+  color: #ffffff;
+  margin-right: 5px;
+}
+
+.footer .social {
+  position: relative;
+  width: 100%;
+}
+
+.footer .social a {
+  display: inline-block;
+  margin: 10px 5px 0 0;
+  width: 35px;
+  height: 35px;
+  padding: 5px 0;
+  text-align: center;
+  font-size: 18px;
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.footer .social a i {
+  color: #111111;
+}
+
+.footer .social a:hover {
+  background: #FF6F61;
+}
+
+.footer .social a:hover i {
+  color: #ffffff;
+}
+
+.footer .newsletter {
+  position: relative;
+  width: 100%;
+}
+
+.footer .newsletter form {
+  position: relative;
+  width: 100%;
+}
+
+.footer .newsletter input {
+  width: 100%;
+  height: 35px;
+  padding: 0 15px;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+}
+
+.footer .newsletter .btn {
+  position: absolute;
+  width: 80px;
+  height: 35px;
+  top: 0;
+  right: 0;
+  padding: 0 15px;
+  border: none;
+  background: #111111;
+  color: #ffffff;
+  font-size: 14px;
+  border: 1px solid #ffffff;
+  border-radius: 0 4px 4px 0;
+}
+
+.footer .newsletter .btn:hover {
+  background: #FF6F61;
+}
+
+.footer .newsletter input:focus,
+.footer .newsletter .btn:focus {
+  box-shadow: none;
+}
+
+
+/**********************************/
+/******** Footer Menu CSS *********/
+/**********************************/
+.footer-menu {
+  position: relative;
+  background: #111111;
+}
+
+.footer-menu .container {
+  padding: 15px 0;
+  border-top: 1px solid #000000;
+}
+
+.footer-menu .f-menu {
+  font-size: 0;
+  text-align: center;
+}
+
+.footer-menu .f-menu a {
+  color: #ffffff;
+  font-size: 14px;
+  margin-right: 15px;
+  padding-right: 15px;
+  border-right: 1px solid #ffffff;
+}
+
+.footer-menu .f-menu a:hover {
+  color: #FF6F61;
+}
+
+.footer-menu .f-menu a:last-child {
+  margin-right: 0;
+  padding-right: 0;
+  border-right: none;
+}
+
+
+/**********************************/
+/******** Footer Bottom CSS *******/
+/**********************************/
+.footer-bottom {
+  position: relative;
+  padding: 25px 0;
+  background: #000000;
+}
+
+.footer-bottom .copyright {
+  text-align: left;
+}
+
+.footer-bottom .template-by {
+  text-align: right;
+}
+
+.footer-bottom .copyright p,
+.footer-bottom .template-by p {
+  color: #ffffff;
+  font-weight: 400;
+  margin: 0;
+}
+
+.footer-bottom .copyright p a,
+.footer-bottom .template-by p a {
+  font-weight: 600;
+}
+
+.footer-bottom .copyright p a:hover,
+.footer-bottom .template-by p a:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 768.98px) {
+  .footer-bottom .copyright,
+  .footer-bottom .template-by {
+      text-align: center; 
+  } 
+}
